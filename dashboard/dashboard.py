@@ -9,7 +9,7 @@ bike_df = pd.read_csv(url)
 
 # Sidebar
 with st.sidebar:
-    st.image("logo.png")
+    st.image("https://raw.githubusercontent.com/riandigaluh/Bike-Sharing-Analysis/refs/heads/master/dashboard/logo.png")
     
     months = bike_df['month'].unique()
     selected_month = st.selectbox('Filter by Month', months)
