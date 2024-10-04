@@ -4,7 +4,8 @@ import seaborn as sns
 import streamlit as st
 
 # Memuat Dataset
-bike_df = pd.read_csv("bike_day_2012.csv")
+url = "https://raw.githubusercontent.com/riandigaluh/Bike-Sharing-Analysis/refs/heads/master/dashboard/bike_day_2012.csv"
+bike_df = pd.read_csv(url)
 
 # Sidebar
 with st.sidebar:
